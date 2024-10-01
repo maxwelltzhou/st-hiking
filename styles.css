@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Change font */
+}
+
+.sidebar .sidebar-content {
+    background-color: #ffffff; /* White sidebar */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside sidebar */
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue color for headers */
+}
+
+button {
+    background-color: #2980b9; /* Blue button background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button */
+    padding: 10px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+}
+
+.stMarkdown {
+    color: #34495e; /* Darker text color for markdown */
+}
+
+.stButton > div {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center button text */
+}
+
+.stDeckGL {
+    border-radius: 10px; /* Rounded corners for the map */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
